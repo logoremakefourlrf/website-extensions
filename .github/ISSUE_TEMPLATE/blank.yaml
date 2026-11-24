@@ -1,0 +1,14 @@
+name: Blank issue
+ description: Report a problem or share feedback.
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide useful context. Never include passwords, API keys, or private Firebase configuration."
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened, or what would you like to see?
+      placeholder: Describe your request or issue...
+    validations:
+      required: true

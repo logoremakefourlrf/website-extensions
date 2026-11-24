@@ -1,0 +1,30 @@
+name: Merge with Dog Lover SP1
+ description: Pull request template for the Dog Lover SP1 collaboration.
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project or milestone
+      value: Dog Lover SP1
+  - type: textarea
+    id: changes
+    attributes:
+      label: Summary of changes
+      description: Include the branch comparison and user impact.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Build, test, and deployment validation
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Merge checklist
+      options:
+        - label: I checked the base branch and reviewed the diff.
+          required: true
+        - label: No credentials or private configuration are included.
+          required: true

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="android-webpagenotavailable" version="1.0.0">
+  <name>Android Web Page Not Available</name>
+  <description>Fallback information page for unavailable Android web content.</description>
+  <page>index.html</page>
+  <offline-ready>false</offline-ready>
+</extension>

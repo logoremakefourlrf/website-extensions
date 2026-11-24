@@ -1,0 +1,25 @@
+name: Merge to collaboration
+description: Collaborate on a change and compare it with the target branch.
+body:
+  - type: markdown
+    attributes:
+      value: "Open a pull request from your topic branch to the intended base branch. GitHub will show the changes comparison before merging."
+  - type: input
+    id: base
+    attributes:
+      label: Target/base branch
+      placeholder: main
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes to compare
+      description: Summarize the commits and files changed.
+    validations:
+      required: true
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: Collaboration notes
+      description: Reviewers, testing, and follow-up work

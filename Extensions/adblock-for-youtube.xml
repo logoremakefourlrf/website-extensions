@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="adblock-for-youtube" version="1.0.0">
+  <name>AdBlock for YouTube</name>
+  <description>YouTube companion concept; does not access or modify YouTube pages.</description>
+  <page>youtube.html#adblock-youtube</page>
+  <status>concept</status>
+  <permissions />
+</extension>

@@ -1,0 +1,29 @@
+name: Merge contributor
+ description: Contributor pull request details.
+body:
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor
+      placeholder: GitHub username
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Contribution summary
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: How was this tested?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Contributor checklist
+      options:
+        - label: I reviewed the changes comparison against the target branch.
+          required: true
+        - label: I did not add secrets or unreviewed permissions.
+          required: true

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discussion-template id="generatetodeploy">
+  <title>Generate to deploy</title>
+  <prompt>Describe your build or deployment goal, platform, and current status.</prompt>
+  <safety>Never share access tokens, signing keys, or production secrets.</safety>
+</discussion-template>

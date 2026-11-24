@@ -1,0 +1,47 @@
+name: Suggest an extension
+description: Suggest an extension for the LogoRemakeFour directory.
+title: "[Extension suggestion]: "
+labels: ["extension suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping shape the extension library. Please do not include passwords, API keys, or personal account data."
+  - type: input
+    id: extension-name
+    attributes:
+      label: Extension name
+      placeholder: A short, descriptive name
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should it solve?
+      description: Explain who it helps and how.
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Proposed features
+      description: List the main capabilities and any permissions it might need.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Website
+        - Browser extension
+        - Android
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: build-deploy
+    attributes:
+      label: Build and deployment
+      options:
+        - label: I would like to help build this extension.
+        - label: I would like to help test or deploy this extension.

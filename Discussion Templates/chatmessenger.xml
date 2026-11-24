@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discussion-template id="chatmessenger">
+  <title>Chat Messenger</title>
+  <prompt>Share a question or idea with the LogoRemakeFour community.</prompt>
+  <safety>Do not post passwords, private messages, or personal account information.</safety>
+</discussion-template>

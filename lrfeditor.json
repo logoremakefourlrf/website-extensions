@@ -1,0 +1,12 @@
+{
+  "name": "LogoRemakeFour Editor",
+  "version": "1.0.0",
+  "description": "Public metadata for the LogoRemakeFour website extensions directory.",
+  "homepage": "https://github.com/logoremakefourlrf/website-extensions",
+  "features": ["extension-directory", "local-language-preference", "firebase-setup-guidance"],
+  "privacy": {
+    "collectsPersonalData": false,
+    "storesPreferencesLocally": true,
+    "accountBackendConfigured": false
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="google-pdf-viewer" version="1.0.0">
+  <name>Google PDF Viewer</name>
+  <description>PDF reading extension concept; not affiliated with Google.</description>
+  <page>google.html#pdf-viewer</page>
+  <status>concept</status>
+  <permissions />
+</extension>

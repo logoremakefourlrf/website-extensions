@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discussion-template id="application">
+  <title>Application</title>
+  <prompt>Describe your application, intended audience, and requested feedback.</prompt>
+  <safety>Do not include credentials, private Firebase configuration, or sensitive personal data.</safety>
+</discussion-template>

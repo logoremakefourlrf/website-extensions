@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="adblock" version="1.0.0">
+  <name>AdBlock</name>
+  <description>Ad-blocking browser extension concept; no filtering implementation is included.</description>
+  <page>adblock.html</page>
+  <status>concept</status>
+  <permissions />
+</extension>

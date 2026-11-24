@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="control-panel-for-youtube" version="1.0.0">
+  <name>Control Panel for YouTube</name>
+  <description>Proposed quick-access control panel for video preferences.</description>
+  <page>youtube.html#control-panel</page>
+  <status>concept</status>
+  <permissions />
+</extension>

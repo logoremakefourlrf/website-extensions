@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="org.logoremakefour.websiteextensions" name="LogoRemakeFour Website Extensions" version="1.0.0" provider-name="LogoRemakeFour">
+  <extension point="website.directory">
+    <summary>Directory of LogoRemakeFour website extension concepts.</summary>
+    <entry>AdBlock</entry>
+    <entry>AdBlock for YouTube</entry>
+    <entry>Control Panel for YouTube</entry>
+    <entry>Google PDF Viewer</entry>
+  </extension>
+  <metadata installable="false">Informational project metadata only; not a browser-installable add-on.</metadata>
+</addon>

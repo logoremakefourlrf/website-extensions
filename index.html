@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover and manage LogoRemakeFour website extensions.">
+  <title>LRF Extensions — a better web, your way</title>
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">L</span> LogoRemakeFour <span class="brand-muted">Extensions</span></a><nav aria-label="Main navigation"><a class="active" href="index.html" data-i18n="navHome">Explore</a><a href="google.html">Google Services</a><a href="settings.html" data-i18n="navSettings">Settings</a></nav><a class="button button-small" href="settings.html#profile" data-i18n="profile">My profile</a></header>
+  <main class="container">
+    <section class="hero"><div class="hero-copy"><span class="eyebrow">THE EXTENSION LIBRARY</span><h1>A better web,<br><span class="gradient-text">your way.</span></h1><p>Find focused tools for your browser, YouTube, and Google workflow.</p><div class="hero-actions"><a class="button" href="#extensions">Explore extensions <span aria-hidden="true">↘</span></a><a class="text-link" href="settings.html">Personalize your experience →</a></div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">L<span>+</span></div><div class="orbit-dot dot-one">✦</div><div class="orbit-dot dot-two">◈</div></div></section>
+    <section class="section-heading" id="extensions"><div><span class="eyebrow">CURATED FOR YOU</span><h2>Explore extensions</h2></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="extension-search" type="search" placeholder="Search extensions" aria-label="Search extensions"></label></section>
+    <div class="filter-row" role="group" aria-label="Filter extensions"><button class="filter-chip selected" data-filter="all">All extensions</button><button class="filter-chip" data-filter="video">Video</button><button class="filter-chip" data-filter="productivity">Productivity</button><button class="filter-chip" data-filter="google">Google</button></div>
+    <section class="extension-grid" id="extension-grid" aria-live="polite">
+      <article class="extension-card" data-category="productivity" data-search="adblock ad block browsing privacy"><div class="card-top"><span class="extension-icon icon-mint">◉</span><span class="badge">BROWSER</span></div><h3>AdBlock</h3><p>Keep your browsing focused with a simple ad-blocking extension concept.</p><div class="card-bottom"><span class="status"><i></i> Ready to explore</span><a class="arrow-link" href="adblock.html" aria-label="Explore AdBlock">↗</a></div></article>
+      <article class="extension-card" data-category="video" data-search="youtube adblock video control panel"><div class="card-top"><span class="extension-icon icon-red">▶</span><span class="badge">VIDEO</span></div><h3>AdBlock for YouTube</h3><p>A companion concept for a calmer YouTube viewing experience.</p><div class="card-bottom"><span class="status"><i></i> Ready to explore</span><a class="arrow-link" href="youtube.html" aria-label="Explore YouTube extensions">↗</a></div></article>
+      <article class="extension-card" data-category="video" data-search="youtube control panel settings"><div class="card-top"><span class="extension-icon icon-violet">◫</span><span class="badge">VIDEO</span></div><h3>Control Panel for YouTube</h3><p>Quick-access controls and a clear place for your video preferences.</p><div class="card-bottom"><span class="status"><i></i> Ready to explore</span><a class="arrow-link" href="youtube.html#control-panel" aria-label="Explore Control Panel for YouTube">↗</a></div></article>
+      <article class="extension-card" data-category="google" data-search="google pdf viewer documents"><div class="card-top"><span class="extension-icon icon-blue">▤</span><span class="badge">GOOGLE</span></div><h3>Google PDF Viewer</h3><p>Open and read PDF documents with a lightweight viewer experience.</p><div class="card-bottom"><span class="status"><i></i> Ready to explore</span><a class="arrow-link" href="google.html#pdf-viewer" aria-label="Explore Google PDF Viewer">↗</a></div></article>
+    </section>
+    <p class="empty-state" id="empty-state" hidden>No extensions match your search. Try another term.</p>
+    <section class="callout"><div><span class="eyebrow">HAVE AN IDEA?</span><h2>Make the web more useful.</h2><p>Suggest an extension and help shape what we build next.</p></div><a class="button button-light" href="https://github.com/logoremakefourlrf/website-extensions/issues/new?template=suggest-extension.yaml">Suggest an extension <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer class="footer"><a class="brand" href="index.html"><span class="brand-mark">L</span> LogoRemakeFour</a><span>Made for a more thoughtful web.</span><a href="settings.html">Settings</a></footer>
+</body>
+</html>

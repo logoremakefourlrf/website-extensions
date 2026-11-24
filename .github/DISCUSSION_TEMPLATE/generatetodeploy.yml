@@ -1,0 +1,6 @@
+title: Generate to deploy
+ body: |
+  ## Build and deployment discussion
+  Describe the build or deployment goal, platform, and current status.
+  Never share access tokens, signing keys, or production secrets in a discussion.
+labels: ["build", "deployment"]

@@ -1,0 +1,39 @@
+name: Create an XML extension definition
+description: Propose a new XML extension metadata file.
+title: "[XML extension]: "
+labels: ["extension", "xml"]
+body:
+  - type: input
+    id: extension-id
+    attributes:
+      label: Extension identifier
+      placeholder: org.example.extension
+    validations:
+      required: true
+  - type: input
+    id: filename
+    attributes:
+      label: Proposed XML filename
+      placeholder: Extensions/example.xml
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and user-facing behavior
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Permissions and data access
+      description: Explain why each requested permission is necessary; prefer none.
+    validations:
+      required: true
+  - type: checkboxes
+    id: reviewed
+    attributes:
+      label: Checklist
+      options:
+        - label: I have not included secrets, credentials, or personal data.
+          required: true

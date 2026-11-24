@@ -1,0 +1,11 @@
+{
+  "name": "LogoRemakeFour Website Extensions",
+  "short_name": "LRF Extensions",
+  "version": "1.0.0",
+  "description": "Discover website extension concepts from LogoRemakeFour.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#167b5a",
+  "background_color": "#ffffff",
+  "note": "This is website metadata, not a browser extension manifest. No browser permissions are requested."
+}

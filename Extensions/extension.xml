@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="org.logoremakefour.websiteextensions" version="1.0.0">
+  <name>LogoRemakeFour Website Extensions</name>
+  <description>Informational directory for extension concepts.</description>
+  <entrypoint>index.html</entrypoint>
+  <installable>false</installable>
+  <permissions />
+</extension>

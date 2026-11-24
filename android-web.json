@@ -1,0 +1,10 @@
+{
+  "name": "LogoRemakeFour Website Extensions",
+  "package": "org.logoremakefour.websiteextensions",
+  "version": "1.0.0",
+  "startUrl": "index.html",
+  "platform": "android-web",
+  "permissions": [],
+  "firebase": { "configured": false, "configFile": "google-services.json" },
+  "note": "Starter metadata only; no Android application or backend is included."
+}

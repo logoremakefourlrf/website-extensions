@@ -1,0 +1,29 @@
+name: Merge with wait and call
+ description: Request a deliberate review before merging.
+body:
+  - type: markdown
+    attributes:
+      value: "Use this template when a change needs a review window or a specific reviewer."
+  - type: input
+    id: reviewer
+    attributes:
+      label: Reviewer to notify
+      placeholder: GitHub username
+  - type: input
+    id: review-window
+    attributes:
+      label: Requested review window
+      placeholder: e.g. by YYYY-MM-DD
+  - type: textarea
+    id: change-summary
+    attributes:
+      label: Change summary and comparison notes
+    validations:
+      required: true
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Before merge
+      options:
+        - label: Changes have been reviewed and checks have passed.
+          required: true

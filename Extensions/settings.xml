@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="settings" version="1.0.0">
+  <name>LogoRemakeFour Settings</name>
+  <description>Local language preferences and illustrative profile/account options.</description>
+  <page>settings.html</page>
+  <supported-languages><language>en</language><language>de</language></supported-languages>
+  <account-backend-configured>false</account-backend-configured>
+</extension>

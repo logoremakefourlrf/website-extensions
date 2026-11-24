@@ -1,0 +1,6 @@
+title: Application
+ body: |
+  ## Application or project proposal
+  Describe the application, the intended audience, and what feedback you need.
+  Do not include credentials, private Firebase configuration, or sensitive personal data.
+labels: ["application"]

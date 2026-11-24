@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "extensions": [
+    { "id": "adblock", "title": "AdBlock", "page": "adblock.html", "category": "productivity", "status": "concept" },
+    { "id": "adblock-for-youtube", "title": "AdBlock for YouTube", "page": "youtube.html#adblock-youtube", "category": "video", "status": "concept" },
+    { "id": "control-panel-for-youtube", "title": "Control Panel for YouTube", "page": "youtube.html#control-panel", "category": "video", "status": "concept" },
+    { "id": "google-pdf-viewer", "title": "Google PDF Viewer", "page": "google.html#pdf-viewer", "category": "google", "status": "concept" }
+  ]
+}
